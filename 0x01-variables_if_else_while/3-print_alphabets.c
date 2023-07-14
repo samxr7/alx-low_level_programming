@@ -19,6 +19,6 @@ while
 putchar (d);
 d++;
 }
-
+putchar('\n');
 return (0);
 }
