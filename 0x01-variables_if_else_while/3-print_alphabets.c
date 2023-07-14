@@ -3,7 +3,7 @@
  * main -Entry point
  * Return: Always 0 (Success)
  */
-int main (void)
+int main(void)
 {
 char c;
 char d;
@@ -16,8 +16,9 @@ c++;
 }
 while
 (d <= 'z') {
-putchar (d);
+putchar(d);
 d++;
+}
 putchar('\n');
 return (0);
 }
