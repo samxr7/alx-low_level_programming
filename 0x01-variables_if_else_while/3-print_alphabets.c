@@ -10,7 +10,7 @@ char d;
 c = 'a';
 d = 'A';
 while
-(c <= 'Z') {
+(c <= 'z') {
 putchar(c);
 c++;
 }
