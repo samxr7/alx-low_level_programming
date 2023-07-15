@@ -15,7 +15,7 @@ digit2 = 0;
 while (digit2 <= 9)
 {
 digit3 = 0;
-while(digit3 <= 9)
+while (digit3 <= 9)
 {
 if (digit1 != digit2 &&
 digit1 < digit2 &&
@@ -28,7 +28,7 @@ putchar(digit3 + 48);
 if (digit1 + digit2 + digit3 != 24)
 {
 putchar(',');
-putchar(',');
+putchar(' ');
 }
 }
 digit3++;
@@ -40,4 +40,3 @@ digit1++;
 putchar('\n');
 return (0);
 }
-
