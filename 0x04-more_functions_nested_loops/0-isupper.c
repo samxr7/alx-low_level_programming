@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _isupper -prog chacks for uppercase charecter
- * @c: variable text
- * Return: Always 0.
- */
+* _isupper -prog chacks for uppercase charecter
+* @c: variable text
+* Return: Always 0.
+*/
 int _isupper(int c)
 {
 if (c >= 'A' && c <= 'z')
