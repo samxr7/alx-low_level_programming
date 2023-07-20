@@ -1,8 +1,8 @@
-#include "main.h"
+#include"main.h"
 /**
-* _isupper -prog checks for uppercase charecter
-* @c: variable text
-* Return: Always 0.
+*_isupper -prog checks for uppercase charecter
+*@c: variable text
+*Return: Always 0.
 */
 int _isupper(int c)
 {
